@@ -24,8 +24,8 @@ If you are using Rhino3D as the source of your 3D model, you can easily use Gras
 The current version
 1) Post-process your 3D modell. Delete the elements you don't want to import in Power BI and you didn't include in the GUIDs column of your table. In case you're using a Rhino model, it's strongly recommended to convert all geometry elements to **meshes**, since other geometry types may not be implemented in the 3DM loader yet.
 2) Get your 3D model online. Only 3D models uploaded to a https domain with CORS enabled can be imported in Power BI. In case you don't have access to such a domain, you can use one of the following resources:</br>
-   a) Make your 3D model accessible through yor **LocalHost** IP adress.
-   b) Upload your 3D model to **One Drive** or **Sharepoint**
+   a) Make your 3D model accessible through yor **Localhost** IP adress.</br>
+   b) Upload your 3D model to **One Drive** or **Sharepoint**.
 <br />
 
 ## Connect 3D model to your data
