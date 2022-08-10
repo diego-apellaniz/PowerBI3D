@@ -17,7 +17,7 @@ Thanks to [McNeel](https://discourse.mcneel.com/t/3dmloader-for-three-js/107702)
 
    If you are using Rhino3D as the source of your 3D model, you can easily use Grasshopper to create your Excel table:
 
-2) Upload Excel table to power BI
+2) Upload Excel table to Power BI
 3) Connect GUIDs with the 3D Visor. The input form to introduce the URL of your 3D model should appear now in the 3D Visor.
 
 ### Import 3D model in Power BI
