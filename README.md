@@ -13,7 +13,7 @@ Thanks to [McNeel](https://discourse.mcneel.com/t/3dmloader-for-three-js/107702)
 3) Open Power BI, create a new file and go to *Files -> Import -> Power BI Visual from File* and select *3DVisor.pbiviz* from the ***downloaded files***.
 4) Create a 3D Visor in Power BI by select the imported visual from the visualizations panel on the right side. It won't display anything though until we connect it to our data and upload the 3D model. <br />
 ### Add data to your Power BI dashboard
-1) Prepare a Excel table with the following format. One column must contain the GUIDs of the objects of your 3D model. Additional columns may include different categories for the GUIDs and different values. It's important that all cells of the table are filed:
+1) Prepare a Excel table with the following format. One column must contain the GUIDs of the objects of your 3D model you want to import in Power BI. Additional columns may include different categories for the GUIDs and different values. It's important that all cells of the table are filed:
 
 If you are using Rhino3D as the source of your 3D model, you can easily use Grasshopper to create your Excel table:
 
@@ -22,6 +22,9 @@ If you are using Rhino3D as the source of your 3D model, you can easily use Gras
 
 ### Import 3D models in Power BI
 The current version
+1) Post-process your 3D modell. Delete the elements you don't want to import in Power BI and you didn't include in the GUIDs column of your table. In case you're using a Rhino model, it's strongly recommended to convert all geometry elements to **meshes**, since other geometry types may not be implemented in the 3DM loader yet.
+2) Get your 3D model online. Only 3D models uploaded to a https domain with CORS enabled can be imported in Power BI. In case you don't have access to such a domain, you can use one of the following resources:
+a) Use LocalHost.
 <br />
 
 ## Connect 3D model to your data
