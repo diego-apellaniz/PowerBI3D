@@ -15,7 +15,7 @@ Thanks to [McNeel](https://discourse.mcneel.com/t/3dmloader-for-three-js/107702)
 ### Add data to your Power BI dashboard
 1) Prepare a Excel table with the following format. One column must contain the GUIDs of the objects of your 3D model you want to import in Power BI. Additional columns may include different categories for the GUIDs and different values. It's important that all cells of the table are filed:
 
-If you are using Rhino3D as the source of your 3D model, you can easily use Grasshopper to create your Excel table:
+   If you are using Rhino3D as the source of your 3D model, you can easily use Grasshopper to create your Excel table:
 
 2) Upload Excel table to power BI
 3) Connect GUIDs with the 3D Visor. The input form to introduce the URL of your 3D model should appear now in the 3D Visor.
