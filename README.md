@@ -23,7 +23,7 @@ Thanks to [McNeel](https://discourse.mcneel.com/t/3dmloader-for-three-js/107702)
 ### Import 3D model in Power BI
 1) Post-process your 3D modell. Delete the elements you don't want to import in Power BI and you didn't include in the GUIDs column of your table. In case you're using a Rhino model, it's strongly recommended to convert all geometry elements to **meshes**, since other geometry types may not be implemented in the 3DM loader yet.
 2) Get your 3D model online. Only 3D models uploaded to a https domain with CORS enabled can be imported in Power BI. In case you don't have access to such a domain, you can use one of the following resources:</br>
-   a) Make your 3D model accessible through yor **Localhost** IP adress. In the downloaded files from the last [release](https://github.com/diego-    apellaniz/PowerBI3D/releases), you will find a Python script to make files accessible through a localhost IP adress</br>
+   a) Make your 3D model accessible through yor **Localhost** IP adress. In the downloaded files from the last [release]("https://github.com/diego-    apellaniz/PowerBI3D/releases"), you will find a Python script to make files accessible through a localhost IP adress</br>
      i)  Install [Python](https://www.python.org/downloads/) in your computer.</br>
      ii) 
    b) Upload your 3D model to **One Drive** or **Sharepoint**.
