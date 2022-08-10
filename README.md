@@ -6,13 +6,12 @@ Custom Visual for **Power BI** to visualize 3D models and connect them to your d
 This custom visual was developed by Diego Apellániz.<br/> <br/> 
 Thanks to [McNeel](https://discourse.mcneel.com/t/3dmloader-for-three-js/107702) for the wonderful 3DM loader for three.js.
 
-## How to use</br>
+## How to use
 ### Add custom visual to Power BI
 1) Download last [release](https://github.com/diego-apellaniz/PowerBI3D/releases) of this repository.
 2) Download and install [Power BI Desktop](https://www.microsoft.com/store/productId/9NTXR16HNW1T).
 3) Open Power BI, create a new file and go to *Files -> Import -> Power BI Visual from File* and select *3DVisor.pbiviz* from the ***downloaded files***.
-4) Create a 3D Visor in Power BI by select the imported visual from the visualizations panel on the right side. It won't display anything though until we connect it to our data and upload the 3D model.
-<br />
+4) Create a 3D Visor in Power BI by select the imported visual from the visualizations panel on the right side. It won't display anything though until we connect it to our data and upload the 3D model. <br />
 ### Add data to your Power BI dashboard
 1) Prepare a Excel table with the following format. One column must contain the GUIDs of the objects of your 3D model. Additional columns may include different categories for the GUIDs and different values. It's important that all cells of the table are filed:
 
