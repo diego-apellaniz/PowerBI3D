@@ -1,10 +1,10 @@
 # Power BI 3D
-Custom Visual for **Power BI** to visualize 3D models and connect them to your data.
+Custom Visual for **Power BI** to visualize 3D models and connect them to your data. It uses the library three.js and its fantastic [3DM loader](https://threejs.org/docs/#examples/en/loaders/3DMLoader) to visualize 3D models in power BI. It currently supports just models from Rhino3d, but the visual can be easily expanded to support other file formats.
 <br />
 
 ## Acknowledgement
 This custom visual was developed by Diego Apellániz.<br/> <br/> 
-It uses the library three.js and its fantastic [3DM loader](https://threejs.org/docs/#examples/en/loaders/3DMLoader) to visualize 3D models in power BI.
+Thanks to [McNeel](https://discourse.mcneel.com/t/3dmloader-for-three-js/107702) for the wonderful 3DM loader for three.js.
 
 ## How to use
 ### Add custom visual to Power BI
