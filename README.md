@@ -25,7 +25,7 @@ Thanks to [McNeel](https://discourse.mcneel.com/t/3dmloader-for-three-js/107702)
 2) Get your 3D model online. Only 3D models uploaded to a https domain with CORS enabled can be imported in Power BI. In case you don't have access to such a domain, you can use one of the following resources:</br>
 
 #### Localhost
-Make your 3D model locally accessible through yor **Localhost** IP adress. In the downloaded files from the last [release](https://github.com/diego-apellaniz/PowerBI3D/releases), you will find a Python script to make files accessible through a localhost IP adress. In order to use it, we need to create a SSL Certificate For Localhost first.</br>
+Make your 3D model locally accessible through yor **Localhost** IP adress. In the downloaded files from the last [release](https://github.com/diego-apellaniz/PowerBI3D/releases), you will find a Python script to make files accessible through a localhost IP adress. In order to use it, we need to create an SSL certificate first.</br>
 1) Install [OpenSSL](https://slproweb.com/products/Win32OpenSSL.html).</br>
 2) Create an SSL certificate file. We need it to create an https server on Localhost as shown in this [video](https://www.youtube.com/watch?v=jSkQ27sTto0). You can use the provided *config.txt* file and copy the command line in the file *command.txt* from the downloaded folder in the corresponding steps. It's very important that the name of the final certificate is exactly *certfie.pem*.
 3) Install [Python](https://www.python.org/downloads/) in your computer.</br>
