@@ -30,7 +30,7 @@ Make your 3D model locally accessible through yor **Localhost** IP adress. In th
 2) Create an SSL certificate file. We need it to create an https server on Localhost as shown in this [video](https://www.youtube.com/watch?v=jSkQ27sTto0). You can use the provided *config.txt* file and copy the command line in the file *command.txt* from the downloaded folder in the corresponding steps. It's very important that the name of the final certificate is exactly *certfie.pem*.
 3) Install [Python](https://www.python.org/downloads/) in your computer.</br>
 4) Open the Windows Command Promt, type *cd PATH* where PATH is the route to the folder of the downloaded python script and tpye *pip install requirements.txt*.
-5) Now you can finally run the python script. In the same command promt type *ActivateLocalHost.py*. You should get the url of the https server runing in your localhost. Something like *https://localhost:49379*.</br>
+5) Now you can finally run the python script. In the same command promt type *ActivateLocalHost.py*. You should get the url of the https server runing in your localhost. Something like `https://localhost:49379`.</br>
 6) Enter this url in Google Chrome. You shouldn't receive any warning if the SSL was created properly. Now you should see in the browser all files located in the same folder as the python script. You can also copy here the 3D model you want to import. You can then refresh the browser and copy the link to the file of the 3d model which you will then enter in Power BI!</br>
 
 ### OneDrive
