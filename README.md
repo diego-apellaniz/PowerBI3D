@@ -27,7 +27,7 @@ Thanks to [McNeel](https://discourse.mcneel.com/t/3dmloader-for-three-js/107702)
 #### Localhost
 Make your 3D model accessible through yor **Localhost** IP adress. In the downloaded files from the last [release](https://github.com/diego-apellaniz/PowerBI3D/releases), you will find a Python script to make files accessible through a localhost IP adress. In order to use it, we need to create a SSL Certificate For Localhost first</br>.
 1) Install [OpenSSL](https://slproweb.com/products/Win32OpenSSL.html).</br>
-2) Create certificate file. You can watch this [video](https://www.youtube.com/watch?v=jSkQ27sTto0) or follow these steps:
+2) Create certificate file. You can watch this [video](https://www.youtube.com/watch?v=jSkQ27sTto0) or follow these steps:</br>
 a) Open the command prompt by using **Windows Key + R** and then typin **cmd**.</br>
 b) On the command promt type **openssl** to check that it's installed. Then use **Ctrl + C** to exit openssl.</br>
 c) On the command prompt type **cd PATH** where **PATH** is the directory where you downloaded the python script and in which the file **config.txt** should also be.
