@@ -23,6 +23,8 @@ Thanks to Tizian Alkewitz for the intensive beta testing.
 ![Image](https://github.com/diego-apellaniz/PowerBI3D/blob/main/Images/excel_lca.png)
 
    If you are using Rhino3D as the source of your 3D model, you can easily use Grasshopper to create your Excel table:
+   
+![Image](https://github.com/diego-apellaniz/PowerBI3D/blob/main/Images/gh_ids.png)
 
 2) Upload Excel table to Power BI
 3) Connect GUIDs with the 3D Visor. The input form to introduce the URL of your 3D model should appear now in the 3D Visor.
@@ -48,3 +50,4 @@ We can also use a link to a file stored in OneDrive. SharePoint and OneDrive for
 ### 4) Connect 3D model to your data
 Just connect your imported data to the 3D visor. If just the GUIDS are provided, the 3D model will be displayed in gray. If a category is also provided, the different groups wil be displayed according to the color pallette of Power BI. If also data for the Colors parameter is provided, the model objects will be displayed using a color gradient that interpolates the added values of each group. Finally, if Color dara is provided with no grouping, the color gradient will consider the value of each independent model object with no grouping.
 
+![Image](https://github.com/diego-apellaniz/PowerBI3D/blob/main/Images/mapping_data.png)
