@@ -44,7 +44,5 @@ We can also use a link to a file stored in OneDrive. SharePoint and OneDrive for
 2) Run the program *EncodeOneDriveURL.exe* from the downloaded files and enter the shared link from OneDrive. You will get a resulting url that is the direct link to the file and that you can use in Power BI!
 
 ### 4) Connect 3D model to your data
-
-
-## Enable support for other file formats
+Just connect your imported data to the 3D visor. If just the GUIDS are provided, the 3D model will be displayed in gray. If a category is also provided, the different groups wil be displayed according to the color pallette of Power BI. If also data for the Colors parameter is provided, the model objects will be displayed using a color gradient that interpolates the added values of each group. Finally, if Color dara is provided with no grouping, the color gradient will consider the value of each independent model object with no grouping.
 
