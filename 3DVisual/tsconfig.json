@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        
+        "allowJs": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es6",
+        "sourceMap": true,
+        "outDir": "./.tmp/build/",
+        "moduleResolution": "node",
+        "declaration": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "jsx": "react",
+        "types": [
+            "node","react", "react-dom"
+          ]
+    },
+    "files": [
+        "src/CustomVisual.ts"
+    ]
+}

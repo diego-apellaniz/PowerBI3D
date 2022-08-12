@@ -1,0 +1,81 @@
+{
+    "dataRoles": [      
+      {
+          "displayName": "GUID (mandatory)",
+          "name": "id",
+          "kind": "Grouping",
+          "requiredTypes": [
+            {
+                "text": true
+            }
+        ]
+      },
+      {
+        "displayName": "Category",
+        "name": "category",
+        "kind": "Grouping"
+    },
+    {
+        "name": "data",
+        "kind": "Measure",
+        "displayName": "Color"
+    }
+  ],
+  "objects": 
+  {
+    "model": {
+        "displayName": "Model",
+        "properties": {
+            "url": {
+                "displayName": "URL",
+                "description": "URL of the Rhino model.",
+                "type": {
+                    "text":true                
+                }
+            }    
+        }
+    }
+  },
+  "dataViewMappings": [
+    {
+        "conditions": [
+            {
+                "category": {
+                    "max": 1
+                },
+                "id": {
+                    "max": 1
+                },
+                "data": {
+                    "max": 1
+                }
+            }
+        ],
+        "categorical":{
+            "categories":{
+                "select":[{
+                    "for":{
+                    "in":"id"
+                    }
+                },
+                {
+                "bind":{
+                "to":"category"
+                }
+                }
+                ],
+            "dataReductionAlgorithm":{
+                "top":{
+                    "count":50000
+                    }
+                }
+            },
+            "values":{
+                "bind":{
+                    "to":"data"
+                }
+            }
+        }        
+      }
+    ]
+}

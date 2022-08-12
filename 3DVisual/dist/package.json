@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "author": {"name":"Diego Apellániz","email":"dapellaniz@gmail.com"},
+    "resources": [
+        {
+            "resourceId": "rId0",
+            "sourceType": 5,
+            "file": "resources/circleCard2955BB329D6640318943EF420537E619.pbiviz.json"
+        }
+    ],
+    "visual": {"name":"powerbi3d","displayName":"3D Visor","guid":"circleCard2955BB329D6640318943EF420537E619","visualClassName":"CustomVisual","version":"1.0.0","description":"Custom Visual for Power BI to visualize 3D models and connect them to your data.","supportUrl":"https://github.com/diego-apellaniz/PowerBI3D","gitHubUrl":"https://github.com/diego-apellaniz/PowerBI3D"},
+    "metadata": {
+        "pbivizjson": {
+            "resourceId": "rId0"
+        }
+    }  
+}
