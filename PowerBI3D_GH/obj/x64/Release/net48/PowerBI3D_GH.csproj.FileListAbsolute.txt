@@ -1,0 +1,12 @@
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\bin\x64\Release\net48\PowerBI3D_GH.gha
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\bin\x64\Release\net48\PowerBI3D_GH.pdb
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.csproj.AssemblyReference.cache
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.Properties.Resources.resources
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.csproj.GenerateResource.cache
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.AssemblyInfoInputs.cache
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.AssemblyInfo.cs
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.csproj.CoreCompileInputs.cache
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.sourcelink.json
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.gha
+C:\Users\diego\OneDrive\Projects\Repos\PowerBI3D\PowerBI3D_GH\obj\x64\Release\net48\PowerBI3D_GH.pdb

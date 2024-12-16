@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iaMvEjjrlp2rPaQR/K34F/hpDGT0mT4c7jhIS48M0GsaGFu5BsamE4uo2rdCfS06hmKdRIUvGoDzFv7gEOJL7Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\diego\\OneDrive\\Projects\\Repos\\PowerBI3D\\PowerBI3D_GH\\PowerBI3D_GH.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diego\\.nuget\\packages\\grasshopper\\7.13.21348.13001\\grasshopper.7.13.21348.13001.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\rhinocommon\\7.13.21348.13001\\rhinocommon.7.13.21348.13001.nupkg.sha512"
+  ],
+  "logs": []
+}
