@@ -1,5 +1,6 @@
 # Power BI 3D
-Custom Visual for **Power BI** to visualize 3D models and connect them to your data. It uses the library three.js and its fantastic [3DM loader](https://threejs.org/docs/#examples/en/loaders/3DMLoader) to visualize 3D models in power BI. It currently only supports Rhino3d models, but the visual can be easily expanded to support other file formats.
+Custom Visual for **Power BI** to visualize 3D models and connect them to your data. It uses the library three.js and its fantastic [3DM loader](https://threejs.org/docs/#examples/en/loaders/3DMLoader) to visualize 3D models in power BI. It currently only supports Rhino3d models, but the visual can be easily expanded to support other file formats.\\
+The Grasshopper plug-in "PowerBI3D" was developed to work in combination with this custom visual. It is available at food4rhino together with a Grasshopper example about how to create a PowerBI dashboard: [PowerBI3D plug-in](https://www.food4rhino.com/en/app/powerbi3d)
 
 [![Watch the video](https://api.onedrive.com/v1.0/shares/u!aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBcnBiTGlJYngxNVFrOFZXOFpHdzh0RVkzVEpINkE_ZT1JZ1JuMlY/root/content)](https://youtu.be/CE_XmEtYdaU)
 
